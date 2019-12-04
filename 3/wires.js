@@ -46,7 +46,7 @@ function createListOfPoints() {
     });
 
     var w2X=0,w2Y=0;
-    stepCounter=1
+    stepCounter=0
     wireTwoPath.forEach(function(direction2){
         var whichWay =  direction2.substring(0,1);
         var howMany = direction2.substring(1,direction2.length);
